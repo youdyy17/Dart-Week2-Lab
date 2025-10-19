@@ -81,7 +81,7 @@ void main() {
   // Print order details
   print("Order ID: ${order.id}");
   print("Customer: ${order.customer.name}");
-  print("Order Method: ${order.orderMethod}");
+  print("Order Method: ${order.orderMethod.name}");
   print("Items:");
   for (var item in order.item) {
     print(" - ${item.product.getInfo()} x${item.quantity}");
